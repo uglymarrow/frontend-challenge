@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: #FFFFFF;
+}
+
+.header {
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+    height: 64px;
+
+}
+
+.navbar {
+    padding-left: 62px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* .navbar-item {
+
+} */
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    font-style: normal;
+    font-size: 14pt;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 23px 0 23px;
+}
+
+.navbar-link-main {
+    background-color: #1E88E5;
+    color: #fff;
+}
+
+.navbar-link:hover {
+    background-color: #1E88E5;
+    color: #fff;
+}
+
+.container {
+    padding: 36px 13px 0px 62px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.card {
+    width: 256px;
+    height: 256px;
+    margin: 0 15px 15px 0;
+    padding: 15px;
+}
+
+.cat-img {
+    width: 225px;
+    height: 225px;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+}
+
+.like-btn {
+    display: none;
+
+}
+
+.card:hover > .like-btn {
+    display: block;
+    border:none;
+    position: relative;
+    left: 180px;
+    bottom: 45px;
+    padding: 0;
+    width: 40px;
+    height: 37px;
+    background-color: transparent;
+}
+
+
+.btn {
+    display: block;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-color: #cfcece;
+}
